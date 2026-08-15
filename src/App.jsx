@@ -41,7 +41,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="logo">
         <i className="fas fa-users-cog"></i>
-        <span>TBH <span className="highlight">Recruitment Agency</span></span>
+        <span>TBH <span className="highlight">Manpower ltd</span></span>
       </div>
       <div className="nav-links" id="navLinks">
         <a href="#services">Services</a>
