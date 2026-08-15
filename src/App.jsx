@@ -48,15 +48,16 @@ const Hero = () => {
     <section className="hero">
       <div className="hero-content">
         <div className="badge">
-          <i className="fas fa-briefcase"></i> Kenya's Leading Labour Export Agency
+          <i className="fas fa-briefcase"></i> Kenya's Trusted Labour Export Agency
         </div>
         <h1>
-          Connect Kenyan <br />
-          <span className="gradient-text">Talent with UAE</span> Employers
+          Taking Kenyan Talent <br />
+          <span className="gradient-text">Home to Work in the UAE</span>
         </h1>
         <p>
-          We specialize in recruiting, vetting, and exporting skilled and semi-skilled 
-          workers from Kenya to the United Arab Emirates. Your gateway to Gulf employment.
+          From Nairobi to Mombasa, Kisumu to Eldoret, we recruit, vet and place skilled and
+          semi-skilled Kenyan workers with reputable employers across the United Arab Emirates —
+          fully licensed by Kenya's National Employment Authority (NEA).
         </p>
         <div className="hero-buttons">
           <button className="btn btn-primary">
@@ -69,7 +70,7 @@ const Hero = () => {
         <div className="stats">
           <div>
             <span className="stat-number">1,200+</span>
-            <span className="stat-label">Workers Deployed</span>
+            <span className="stat-label">Kenyans Deployed</span>
           </div>
           <div>
             <span className="stat-number">97%</span>
@@ -84,11 +85,11 @@ const Hero = () => {
       <div className="hero-image">
         <img 
           src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=600&h=400&fit=crop&crop=center" 
-          alt="Workers in UAE" 
+          alt="Kenyan workers deployed in the UAE" 
         />
         <div className="image-overlay">
           <h3>Dubai • Abu Dhabi • Sharjah</h3>
-          <p>Building careers, building nations</p>
+          <p>Kenyan hands, Gulf opportunities</p>
         </div>
       </div>
     </section>
@@ -101,32 +102,32 @@ const Services = () => {
     {
       icon: 'fa-user-check',
       title: 'Recruitment & Screening',
-      desc: 'Rigorous vetting of candidates to match UAE employer requirements across all sectors.'
+      desc: 'Rigorous vetting of candidates from across Kenya\'s 47 counties to match UAE employer requirements.'
     },
     {
       icon: 'fa-file-contract',
       title: 'Contract Management',
-      desc: 'Transparent employment contracts compliant with UAE labour laws and Kenyan regulations.'
+      desc: 'Transparent employment contracts compliant with UAE labour law and Kenya\'s Employment Act, 2007.'
     },
     {
       icon: 'fa-passport',
       title: 'Visa & Work Permits',
-      desc: 'End-to-end processing of UAE work visas, medicals, and labour cards.'
+      desc: 'End-to-end processing of UAE work visas, medicals and labour cards, coordinated with Kenya\'s Directorate of Immigration Services.'
     },
     {
       icon: 'fa-plane',
       title: 'Deployment Logistics',
-      desc: 'Managed travel arrangements including flights, airport transfers, and accommodation.'
+      desc: 'Managed travel from JKIA and Moi International Airport, including flights, airport transfers and accommodation.'
     },
     {
       icon: 'fa-chart-line',
-      title: 'Skills Development',
-      desc: 'Pre-departure training to ensure workers meet UAE industry standards.'
+      title: 'Pre-Departure Training',
+      desc: 'NITA-aligned skills and orientation training so every worker leaves Kenya ready for the UAE workplace.'
     },
     {
       icon: 'fa-headset',
       title: 'Post-Placement Support',
-      desc: '24/7 support for workers and employers to ensure successful placements.'
+      desc: '24/7 support for workers and employers, with a local Nairobi office your family can always reach.'
     }
   ];
 
@@ -220,10 +221,10 @@ const LabourExport = () => {
   ];
 
   const process = [
-    { step: '01', title: 'Registration', desc: 'Workers register with TBH Labour for assessment.' },
-    { step: '02', title: 'Screening', desc: 'Skills verification, medical checks, and interviews.' },
-    { step: '03', title: 'Matching', desc: 'We match candidates with UAE employer requirements.' },
-    { step: '04', title: 'Deployment', desc: 'Visa processing, travel arrangements, and placement.' }
+    { step: '01', title: 'Registration', desc: 'Workers register at our Nairobi office or via our online portal for assessment.' },
+    { step: '02', title: 'Screening', desc: 'Skills verification, government medical checks, and one-on-one interviews.' },
+    { step: '03', title: 'Matching', desc: 'We match candidates with vetted UAE employer requirements.' },
+    { step: '04', title: 'Deployment', desc: 'Visa processing, pre-departure briefing, travel arrangements and placement.' }
   ];
 
   return (
@@ -234,8 +235,9 @@ const LabourExport = () => {
             <i className="fas fa-briefcase"></i> Labour <span className="gradient-text">Export</span>
           </h2>
           <p className="section-sub">
-            TBH Labour is a licensed recruitment agency connecting Kenyan workers with 
-            reputable employers across the United Arab Emirates.
+            TBH Labour is a licensed recruitment agency, registered with Kenya's National
+            Employment Authority (NEA), connecting Kenyan workers with reputable employers
+            across the United Arab Emirates. Harambee — we grow together, at home and abroad.
           </p>
           
           <div className="labour-stats">
@@ -252,8 +254,8 @@ const LabourExport = () => {
               <span className="stat-label">Success Rate</span>
             </div>
             <div className="labour-stat">
-              <span className="stat-number">15+</span>
-              <span className="stat-label">Industry Sectors</span>
+              <span className="stat-number">47</span>
+              <span className="stat-label">Counties Reached</span>
             </div>
           </div>
 
@@ -293,7 +295,7 @@ const LabourExport = () => {
         <div className="labour-image">
           <img 
             src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=600&h=400&fit=crop&crop=center" 
-            alt="Working professionals" 
+            alt="Kenyan working professionals" 
           />
           <div className="image-caption">
             <i className="fas fa-users"></i> Kenyan workers building the UAE
@@ -309,8 +311,8 @@ const Testimonials = () => {
   const testimonials = [
     {
       name: 'Grace Mwangi',
-      from: 'Kenyan Worker, Dubai',
-      text: 'TBH Labour helped me secure a hospitality job in Dubai. The process was smooth, and they supported me every step of the way. I\'ve been working here for 2 years now!',
+      from: 'From Nakuru, now in Dubai',
+      text: 'TBH Labour helped me secure a hospitality job in Dubai. The process was smooth, and they supported me every step of the way. I\'ve been working here for 2 years now, and I still send money home to my family every month.',
       image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=center',
       rating: 5,
       type: 'worker'
@@ -318,15 +320,15 @@ const Testimonials = () => {
     {
       name: 'Ahmed Al Maktoum',
       from: 'Construction Company, Abu Dhabi',
-      text: 'We\'ve hired over 50 Kenyan workers through TBH Labour. Their screening process is excellent, and the workers are skilled, reliable, and hardworking.',
+      text: 'We\'ve hired over 50 Kenyan workers through TBH Labour. Their screening process is excellent, and the workers are skilled, reliable and hardworking.',
       image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=center',
       rating: 5,
       type: 'employer'
     },
     {
       name: 'James Ochieng',
-      from: 'Kenyan Worker, Sharjah',
-      text: 'From registration to deployment, TBH Labour made everything easy. I now work in manufacturing and send money home to support my family. Thank you, TBH!',
+      from: 'From Kisumu, now in Sharjah',
+      text: 'From registration at the Nairobi office to deployment, TBH Labour made everything easy and above board. I now work in manufacturing and I am building a home for my family back in Kisumu. Asante, TBH!',
       image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=center',
       rating: 5,
       type: 'worker'
@@ -338,7 +340,7 @@ const Testimonials = () => {
       <div className="section-header">
         <h2 className="section-title">What Our <span className="gradient-text">Clients Say</span></h2>
         <p className="section-sub">
-          Testimonials from workers and employers who trust TBH Labour.
+          Testimonials from Kenyan workers and UAE employers who trust TBH Labour.
         </p>
       </div>
       <div className="testimonials-grid">
@@ -377,7 +379,7 @@ const Footer = () => {
             <i className="fas fa-users-cog"></i>
             <span>TBH <span className="highlight">Labour</span></span>
           </div>
-          <p>Licensed labour export agency connecting Kenyan workers with UAE employers since 2018.</p>
+          <p>Licensed labour export agency connecting Kenyan workers with UAE employers since 2018. Registered with Kenya's National Employment Authority.</p>
           <div className="social-icons">
             <a href="#"><i className="fab fa-instagram"></i></a>
             <a href="#"><i className="fab fa-twitter"></i></a>
@@ -396,15 +398,15 @@ const Footer = () => {
           <div>
             <h4>Contact</h4>
             <a href="#"><i className="fas fa-phone"></i> +254 700 123 456</a>
-            <a href="#"><i className="fas fa-envelope"></i> info@tbhlabour.com</a>
-            <a href="#"><i className="fas fa-map-marker-alt"></i> Nairobi, Kenya</a>
+            <a href="#"><i className="fas fa-envelope"></i> info@tbhlabour.co.ke</a>
+            <a href="#"><i className="fas fa-map-marker-alt"></i> Kimathi Street, Nairobi CBD, Kenya</a>
           </div>
           <div>
             <h4>Office Hours</h4>
             <p>Mon-Fri: 8:00 AM - 6:00 PM</p>
             <p>Sat: 9:00 AM - 2:00 PM</p>
             <p>Sun: Closed</p>
-            <p className="license">License #: LEA/2024/078</p>
+            <p className="license">NEA License #: NEA/2024/0078</p>
           </div>
         </div>
       </div>
@@ -430,7 +432,9 @@ const WhatsAppButton = () => {
       rel="noopener noreferrer"
       aria-label="Chat on WhatsApp"
     >
-      <i className="fab fa-whatsapp"></i>
+      <svg viewBox="0 0 32 32" width="28" height="28" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
+        <path d="M16.004 3C9.377 3 4 8.373 4 15c0 2.398.638 4.686 1.85 6.69L4 29l7.51-1.828A11.94 11.94 0 0 0 16.004 27C22.63 27 28 21.627 28 15S22.63 3 16.004 3Zm0 21.7c-1.94 0-3.842-.52-5.5-1.5l-.395-.234-4.457 1.085 1.166-4.34-.257-.41A9.63 9.63 0 0 1 5.3 15c0-5.9 4.8-10.7 10.704-10.7 5.9 0 10.7 4.8 10.7 10.7s-4.8 10.7-10.7 10.7Zm5.86-8.017c-.32-.16-1.895-.936-2.19-1.043-.294-.107-.508-.16-.722.16-.213.32-.828 1.043-1.016 1.257-.187.213-.374.24-.694.08-.32-.16-1.35-.498-2.573-1.587-.951-.848-1.593-1.895-1.78-2.216-.187-.32-.02-.494.14-.653.144-.144.32-.374.48-.56.16-.187.213-.32.32-.534.107-.213.053-.4-.027-.56-.08-.16-.722-1.74-.99-2.383-.26-.626-.526-.541-.722-.551l-.615-.011c-.213 0-.56.08-.854.4-.293.32-1.12 1.095-1.12 2.67 0 1.574 1.147 3.095 1.307 3.308.16.213 2.256 3.446 5.467 4.833.764.33 1.36.527 1.826.674.767.244 1.465.21 2.017.127.615-.092 1.895-.774 2.163-1.522.267-.747.267-1.388.187-1.522-.08-.134-.293-.213-.613-.373Z"/>
+      </svg>
     </a>
   );
 };
