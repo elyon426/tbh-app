@@ -41,7 +41,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="logo">
         <i className="fas fa-users-cog"></i>
-        <span>TBH <span className="highlight">Labour</span></span>
+        <span>TBH <span className="highlight">Recruitment Agency</span></span>
       </div>
       <div className="nav-links" id="navLinks">
         <a href="#services">Services</a>
@@ -177,25 +177,25 @@ const Destinations = () => {
   const destinations = [
     {
       city: 'Dubai',
-      image: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600&h=400&fit=crop&crop=center',
+      image: 'https://images.unsplash.com/photo-1577784424946-e12c7b211249?w=600&h=400&fit=crop&crop=center',
       sectors: 'Construction, Hospitality, Logistics',
       demand: 'High demand for skilled workers'
     },
     {
       city: 'Abu Dhabi',
-      image: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=600&h=400&fit=crop&crop=center',
+      image: 'https://images.unsplash.com/photo-1516199423456-1f1e91b06f25?w=600&h=400&fit=crop&crop=center',
       sectors: 'Oil & Gas, Healthcare, Engineering',
       demand: 'Growing industrial sector'
     },
     {
       city: 'Sharjah',
-      image: 'https://images.unsplash.com/photo-1566555108172-f8a02274a3d3?w=600&h=400&fit=crop&crop=center',
+      image: 'https://images.unsplash.com/photo-1581091212991-8891c7d4bd9b?w=600&h=400&fit=crop&crop=center',
       sectors: 'Manufacturing, Education, Retail',
       demand: 'Stable employment opportunities'
     },
     {
       city: 'Ras Al Khaimah',
-      image: 'https://images.unsplash.com/photo-1585409677983-0f6c41ca9c3b?w=600&h=400&fit=crop&crop=center',
+      image: 'https://images.unsplash.com/photo-1707343846292-0c11438d145f?w=600&h=400&fit=crop&crop=center',
       sectors: 'Tourism, Agriculture, Construction',
       demand: 'Emerging job market'
     }
