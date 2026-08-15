@@ -1,8 +1,26 @@
 // App.jsx
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 
+// Loads the Font Awesome icon library once, on mount, so every <i className="fas fa-...">
+// icon in this file actually renders. Without this, the icon classes exist in the markup
+// but there's no stylesheet defining them, so nothing shows up.
+const useFontAwesome = () => {
+  useEffect(() => {
+    const existing = document.querySelector('link[data-font-awesome]');
+    if (existing) return;
+
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css';
+    link.setAttribute('data-font-awesome', 'true');
+    document.head.appendChild(link);
+  }, []);
+};
+
 const App = () => {
+  useFontAwesome();
+
   return (
     <div className="app">
       <Navbar />
@@ -171,7 +189,7 @@ const Destinations = () => {
     },
     {
       city: 'Sharjah',
-      image: 'https://images.unsplash.com/photo-1570168007204-db528c6958f9?w=600&h=400&fit=crop&crop=center',
+      image: 'https://images.unsplash.com/photo-1566555108172-f8a02274a3d3?w=600&h=400&fit=crop&crop=center',
       sectors: 'Manufacturing, Education, Retail',
       demand: 'Stable employment opportunities'
     },
