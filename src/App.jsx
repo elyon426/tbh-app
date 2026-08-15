@@ -22,8 +22,8 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-        <i className="fas fa-globe-africa"></i>
-        <span>TBH <span className="highlight">Travel</span></span>
+        <i className="fas fa-users-cog"></i>
+        <span>TBH <span className="highlight">Labour</span></span>
       </div>
       <div className="nav-links" id="navLinks">
         <a href="#services">Services</a>
@@ -48,47 +48,47 @@ const Hero = () => {
     <section className="hero">
       <div className="hero-content">
         <div className="badge">
-          <i className="fas fa-route"></i> Kenya → UAE
+          <i className="fas fa-briefcase"></i> Kenya's Leading Labour Export Agency
         </div>
         <h1>
-          Your Gateway to <br />
-          <span className="gradient-text">Dubai & Beyond</span>
+          Connect Kenyan <br />
+          <span className="gradient-text">Talent with UAE</span> Employers
         </h1>
         <p>
-          Professional travel, tourism, and labour export services from Kenya to the United Arab Emirates. 
-          We connect talent with opportunity.
+          We specialize in recruiting, vetting, and exporting skilled and semi-skilled 
+          workers from Kenya to the United Arab Emirates. Your gateway to Gulf employment.
         </p>
         <div className="hero-buttons">
           <button className="btn btn-primary">
-            <i className="fas fa-paper-plane"></i> Start Journey
+            <i className="fas fa-user-plus"></i> Register as Worker
           </button>
           <button className="btn btn-outline">
-            <i className="fas fa-briefcase"></i> Labour Export
+            <i className="fas fa-building"></i> Hire Talent
           </button>
         </div>
         <div className="stats">
           <div>
-            <span className="stat-number">3,200+</span>
-            <span className="stat-label">Travelers Placed</span>
+            <span className="stat-number">1,200+</span>
+            <span className="stat-label">Workers Deployed</span>
           </div>
           <div>
             <span className="stat-number">97%</span>
-            <span className="stat-label">Visa Success</span>
+            <span className="stat-label">Success Rate</span>
           </div>
           <div>
-            <span className="stat-number">450+</span>
-            <span className="stat-label">Workers Exported</span>
+            <span className="stat-number">150+</span>
+            <span className="stat-label">UAE Employers</span>
           </div>
         </div>
       </div>
       <div className="hero-image">
         <img 
-          src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600&h=400&fit=crop&crop=center" 
-          alt="Dubai Skyline" 
+          src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=600&h=400&fit=crop&crop=center" 
+          alt="Workers in UAE" 
         />
         <div className="image-overlay">
           <h3>Dubai • Abu Dhabi • Sharjah</h3>
-          <p>Work • Travel • Thrive</p>
+          <p>Building careers, building nations</p>
         </div>
       </div>
     </section>
@@ -99,34 +99,34 @@ const Hero = () => {
 const Services = () => {
   const services = [
     {
+      icon: 'fa-user-check',
+      title: 'Recruitment & Screening',
+      desc: 'Rigorous vetting of candidates to match UAE employer requirements across all sectors.'
+    },
+    {
+      icon: 'fa-file-contract',
+      title: 'Contract Management',
+      desc: 'Transparent employment contracts compliant with UAE labour laws and Kenyan regulations.'
+    },
+    {
       icon: 'fa-passport',
-      title: 'Visa Processing',
-      desc: 'Fast-track UAE visa services with 97% approval rate for Kenyan citizens.'
+      title: 'Visa & Work Permits',
+      desc: 'End-to-end processing of UAE work visas, medicals, and labour cards.'
     },
     {
       icon: 'fa-plane',
-      title: 'Flight Bookings',
-      desc: 'Best fares on Emirates, Kenya Airways, and Etihad with flexible dates.'
+      title: 'Deployment Logistics',
+      desc: 'Managed travel arrangements including flights, airport transfers, and accommodation.'
     },
     {
-      icon: 'fa-hotel',
-      title: 'Accommodation',
-      desc: 'Curated stays from luxury resorts to worker-friendly apartments.'
-    },
-    {
-      icon: 'fa-briefcase',
-      title: 'Labour Export',
-      desc: 'Connecting Kenyan talent with UAE employers in construction, hospitality, and more.'
-    },
-    {
-      icon: 'fa-car',
-      title: 'Airport Transfers',
-      desc: 'Private chauffeur services from DXB, AUH, and SHJ airports.'
+      icon: 'fa-chart-line',
+      title: 'Skills Development',
+      desc: 'Pre-departure training to ensure workers meet UAE industry standards.'
     },
     {
       icon: 'fa-headset',
-      title: '24/7 Support',
-      desc: 'Round-the-clock assistance in English, Swahili, and Arabic.'
+      title: 'Post-Placement Support',
+      desc: '24/7 support for workers and employers to ensure successful placements.'
     }
   ];
 
@@ -135,7 +135,7 @@ const Services = () => {
       <div className="section-header">
         <h2 className="section-title">Our <span className="gradient-text">Services</span></h2>
         <p className="section-sub">
-          Comprehensive travel and labour solutions tailored for Kenyans heading to the UAE.
+          Comprehensive workforce solutions connecting Kenyan talent with UAE opportunities.
         </p>
       </div>
       <div className="services-grid">
@@ -153,41 +153,41 @@ const Services = () => {
   );
 };
 
-// Destinations Component with Real Images
+// Destinations Component - UAE States where workers are placed
 const Destinations = () => {
   const destinations = [
     {
       city: 'Dubai',
       image: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600&h=400&fit=crop&crop=center',
-      highlights: 'Burj Khalifa, Dubai Mall, Palm Jumeirah',
-      vibe: 'Modern Luxury'
+      sectors: 'Construction, Hospitality, Logistics',
+      demand: 'High demand for skilled workers'
     },
     {
       city: 'Abu Dhabi',
       image: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=600&h=400&fit=crop&crop=center',
-      highlights: 'Sheikh Zayed Mosque, Louvre, Ferrari World',
-      vibe: 'Cultural Elegance'
+      sectors: 'Oil & Gas, Healthcare, Engineering',
+      demand: 'Growing industrial sector'
     },
     {
       city: 'Sharjah',
       image: 'https://images.unsplash.com/photo-1570168007204-db528c6958f9?w=600&h=400&fit=crop&crop=center',
-      highlights: 'Museum of Islamic Civilization, Al Noor Island',
-      vibe: 'Heritage & Art'
+      sectors: 'Manufacturing, Education, Retail',
+      demand: 'Stable employment opportunities'
     },
     {
       city: 'Ras Al Khaimah',
       image: 'https://images.unsplash.com/photo-1585409677983-0f6c41ca9c3b?w=600&h=400&fit=crop&crop=center',
-      highlights: 'Jebel Jais, Desert Camping, Beaches',
-      vibe: 'Adventure & Nature'
+      sectors: 'Tourism, Agriculture, Construction',
+      demand: 'Emerging job market'
     }
   ];
 
   return (
     <section className="destinations" id="destinations">
       <div className="section-header">
-        <h2 className="section-title">Explore the <span className="gradient-text">UAE States</span></h2>
+        <h2 className="section-title">Where Our <span className="gradient-text">Workers Go</span></h2>
         <p className="section-sub">
-          Discover iconic destinations across the United Arab Emirates.
+          We place Kenyan workers across all seven emirates of the UAE.
         </p>
       </div>
       <div className="destinations-grid">
@@ -197,8 +197,8 @@ const Destinations = () => {
               <img src={dest.image} alt={dest.city} loading="lazy" />
             </div>
             <h3>{dest.city}</h3>
-            <p className="dest-highlights">{dest.highlights}</p>
-            <span className="dest-vibe">{dest.vibe}</span>
+            <p className="dest-sectors"><i className="fas fa-briefcase"></i> {dest.sectors}</p>
+            <span className="dest-vibe">{dest.demand}</span>
           </div>
         ))}
       </div>
@@ -206,13 +206,24 @@ const Destinations = () => {
   );
 };
 
-// Labour Export Component
+// Labour Export Component - Main Focus
 const LabourExport = () => {
-  const labourStats = [
-    { number: '450+', label: 'Workers Placed' },
-    { number: '120+', label: 'Partner Companies' },
-    { number: '92%', label: 'Retention Rate' },
-    { number: '15+', label: 'Industry Sectors' }
+  const sectors = [
+    { icon: 'fa-hard-hat', name: 'Construction' },
+    { icon: 'fa-hotel', name: 'Hospitality' },
+    { icon: 'fa-heartbeat', name: 'Healthcare' },
+    { icon: 'fa-truck', name: 'Logistics' },
+    { icon: 'fa-industry', name: 'Manufacturing' },
+    { icon: 'fa-home', name: 'Domestic Work' },
+    { icon: 'fa-ship', name: 'Maritime' },
+    { icon: 'fa-school', name: 'Education' }
+  ];
+
+  const process = [
+    { step: '01', title: 'Registration', desc: 'Workers register with TBH Labour for assessment.' },
+    { step: '02', title: 'Screening', desc: 'Skills verification, medical checks, and interviews.' },
+    { step: '03', title: 'Matching', desc: 'We match candidates with UAE employer requirements.' },
+    { step: '04', title: 'Deployment', desc: 'Visa processing, travel arrangements, and placement.' }
   ];
 
   return (
@@ -223,36 +234,69 @@ const LabourExport = () => {
             <i className="fas fa-briefcase"></i> Labour <span className="gradient-text">Export</span>
           </h2>
           <p className="section-sub">
-            Bridging Kenyan talent with UAE employers. We facilitate legal, ethical, 
-            and professional labour export across multiple sectors.
+            TBH Labour is a licensed recruitment agency connecting Kenyan workers with 
+            reputable employers across the United Arab Emirates.
           </p>
+          
           <div className="labour-stats">
-            {labourStats.map((stat, index) => (
-              <div className="labour-stat" key={index}>
-                <span className="stat-number">{stat.number}</span>
-                <span className="stat-label">{stat.label}</span>
-              </div>
+            <div className="labour-stat">
+              <span className="stat-number">1,200+</span>
+              <span className="stat-label">Workers Placed</span>
+            </div>
+            <div className="labour-stat">
+              <span className="stat-number">150+</span>
+              <span className="stat-label">UAE Employers</span>
+            </div>
+            <div className="labour-stat">
+              <span className="stat-number">97%</span>
+              <span className="stat-label">Success Rate</span>
+            </div>
+            <div className="labour-stat">
+              <span className="stat-number">15+</span>
+              <span className="stat-label">Industry Sectors</span>
+            </div>
+          </div>
+
+          <h3 className="sectors-title">We Place Workers In:</h3>
+          <div className="labour-sectors">
+            {sectors.map((sector, index) => (
+              <span className="sector-tag" key={index}>
+                <i className={`fas ${sector.icon}`}></i> {sector.name}
+              </span>
             ))}
           </div>
-          <div className="labour-sectors">
-            <span className="sector-tag">Construction</span>
-            <span className="sector-tag">Hospitality</span>
-            <span className="sector-tag">Healthcare</span>
-            <span className="sector-tag">Logistics</span>
-            <span className="sector-tag">Engineering</span>
-            <span className="sector-tag">Domestic Work</span>
+
+          <div className="process-section">
+            <h3 className="process-title">How It Works</h3>
+            <div className="process-steps">
+              {process.map((step, index) => (
+                <div className="process-step" key={index}>
+                  <span className="step-number">{step.step}</span>
+                  <div>
+                    <h4>{step.title}</h4>
+                    <p>{step.desc}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
-          <button className="btn btn-primary">
-            <i className="fas fa-user-plus"></i> Register for Labour Export
-          </button>
+
+          <div className="cta-buttons">
+            <button className="btn btn-primary">
+              <i className="fas fa-user-plus"></i> Register as Worker
+            </button>
+            <button className="btn btn-outline">
+              <i className="fas fa-building"></i> Hire Kenyan Talent
+            </button>
+          </div>
         </div>
         <div className="labour-image">
           <img 
-            src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=600&h=400&fit=crop&crop=center" 
+            src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=600&h=400&fit=crop&crop=center" 
             alt="Working professionals" 
           />
           <div className="image-caption">
-            <i className="fas fa-users"></i> Kenyan workers thriving in the UAE
+            <i className="fas fa-users"></i> Kenyan workers building the UAE
           </div>
         </div>
       </div>
@@ -260,38 +304,41 @@ const LabourExport = () => {
   );
 };
 
-// Testimonials Component
+// Testimonials Component - From workers and employers
 const Testimonials = () => {
   const testimonials = [
     {
       name: 'Grace Mwangi',
-      from: 'Nairobi, Kenya',
-      text: 'TBH Travel made my transition to Dubai seamless. The visa was approved in 3 days and they found me a great job in hospitality.',
+      from: 'Kenyan Worker, Dubai',
+      text: 'TBH Labour helped me secure a hospitality job in Dubai. The process was smooth, and they supported me every step of the way. I\'ve been working here for 2 years now!',
       image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=center',
-      rating: 5
+      rating: 5,
+      type: 'worker'
+    },
+    {
+      name: 'Ahmed Al Maktoum',
+      from: 'Construction Company, Abu Dhabi',
+      text: 'We\'ve hired over 50 Kenyan workers through TBH Labour. Their screening process is excellent, and the workers are skilled, reliable, and hardworking.',
+      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=center',
+      rating: 5,
+      type: 'employer'
     },
     {
       name: 'James Ochieng',
-      from: 'Kisumu, Kenya',
-      text: 'Professional service from start to finish. They handled everything — flights, visas, and even helped me secure a construction job in Abu Dhabi.',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=center',
-      rating: 5
-    },
-    {
-      name: 'Faith Akinyi',
-      from: 'Mombasa, Kenya',
-      text: 'I\'ve been working in Dubai for 2 years now, thanks to TBH Travel. Their labour export program is top-notch and fully transparent.',
-      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=center',
-      rating: 5
+      from: 'Kenyan Worker, Sharjah',
+      text: 'From registration to deployment, TBH Labour made everything easy. I now work in manufacturing and send money home to support my family. Thank you, TBH!',
+      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=center',
+      rating: 5,
+      type: 'worker'
     }
   ];
 
   return (
     <section className="testimonials" id="testimonials">
       <div className="section-header">
-        <h2 className="section-title">Success <span className="gradient-text">Stories</span></h2>
+        <h2 className="section-title">What Our <span className="gradient-text">Clients Say</span></h2>
         <p className="section-sub">
-          Real stories from Kenyans who traveled and found work through TBH Travel.
+          Testimonials from workers and employers who trust TBH Labour.
         </p>
       </div>
       <div className="testimonials-grid">
@@ -302,6 +349,9 @@ const Testimonials = () => {
               <div>
                 <strong>{t.name}</strong>
                 <span>{t.from}</span>
+                <span className={`badge-type ${t.type}`}>
+                  {t.type === 'worker' ? '👷 Worker' : '🏢 Employer'}
+                </span>
               </div>
             </div>
             <div className="stars">
@@ -324,10 +374,10 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-brand">
           <div className="logo">
-            <i className="fas fa-globe-africa"></i>
-            <span>TBH <span className="highlight">Travel</span></span>
+            <i className="fas fa-users-cog"></i>
+            <span>TBH <span className="highlight">Labour</span></span>
           </div>
-          <p>Your trusted partner for Kenya-UAE travel, tourism, and labour export.</p>
+          <p>Licensed labour export agency connecting Kenyan workers with UAE employers since 2018.</p>
           <div className="social-icons">
             <a href="#"><i className="fab fa-instagram"></i></a>
             <a href="#"><i className="fab fa-twitter"></i></a>
@@ -346,7 +396,7 @@ const Footer = () => {
           <div>
             <h4>Contact</h4>
             <a href="#"><i className="fas fa-phone"></i> +254 700 123 456</a>
-            <a href="#"><i className="fas fa-envelope"></i> info@tbhtravel.com</a>
+            <a href="#"><i className="fas fa-envelope"></i> info@tbhlabour.com</a>
             <a href="#"><i className="fas fa-map-marker-alt"></i> Nairobi, Kenya</a>
           </div>
           <div>
@@ -354,12 +404,13 @@ const Footer = () => {
             <p>Mon-Fri: 8:00 AM - 6:00 PM</p>
             <p>Sat: 9:00 AM - 2:00 PM</p>
             <p>Sun: Closed</p>
+            <p className="license">License #: LEA/2024/078</p>
           </div>
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2026 TBH Travel Agency. All rights reserved.</p>
-        <p>Empowering Kenyans to <i className="fas fa-heart" style={{color: '#ef4444'}}></i> work and travel in the UAE</p>
+        <p>&copy; 2026 TBH Labour Export Agency. All rights reserved.</p>
+        <p>Empowering Kenyans with <i className="fas fa-heart" style={{color: '#ef4444'}}></i> global employment</p>
       </div>
     </footer>
   );
@@ -368,7 +419,7 @@ const Footer = () => {
 // WhatsApp Button Component
 const WhatsAppButton = () => {
   const phoneNumber = '254700123456';
-  const message = 'Hello TBH Travel, I need assistance with travel to the UAE.';
+  const message = 'Hello TBH Labour, I need assistance with labour export to the UAE.';
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
   return (
