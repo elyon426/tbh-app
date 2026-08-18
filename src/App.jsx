@@ -41,7 +41,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="logo">
         <i className="fas fa-users-cog"></i>
-        <span>TBH <span className="highlight">Manpower ltd</span></span>
+        <span>TPH <span className="highlight">Manpower ltd</span></span>
       </div>
       <div className="nav-links" id="navLinks">
         <a href="#services">Services</a>
@@ -253,7 +253,7 @@ const LabourExport = () => {
             <i className="fas fa-briefcase"></i> Labour <span className="gradient-text">Export</span>
           </h2>
           <p className="section-sub">
-            TBH Labour is a licensed recruitment agency, registered with Kenya's National
+            TPH Man power ltd is a licensed recruitment agency, registered with Kenya's National
             Employment Authority (NEA), connecting Kenyan workers with reputable employers
             across the United Arab Emirates. Harambee — we grow together, at home and abroad.
           </p>
@@ -330,7 +330,7 @@ const Testimonials = () => {
     {
       name: 'Grace Mwangi',
       from: 'From Nakuru, now in Dubai',
-      text: 'TBH Labour helped me secure a hospitality job in Dubai. The process was smooth, and they supported me every step of the way. I\'ve been working here for 2 years now, and I still send money home to my family every month.',
+      text: 'TPH ltd helped me secure a hospitality job in Dubai. The process was smooth, and they supported me every step of the way. I\'ve been working here for 2 years now, and I still send money home to my family every month.',
       image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=center',
       rating: 5,
       type: 'worker'
@@ -338,7 +338,7 @@ const Testimonials = () => {
     {
       name: 'Ahmed Al Maktoum',
       from: 'Construction Company, Abu Dhabi',
-      text: 'We\'ve hired over 50 Kenyan workers through TBH Labour. Their screening process is excellent, and the workers are skilled, reliable and hardworking.',
+      text: 'We\'ve hired over 50 Kenyan workers through TPH ltd. Their screening process is excellent, and the workers are skilled, reliable and hardworking.',
       image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=center',
       rating: 5,
       type: 'employer'
@@ -346,7 +346,7 @@ const Testimonials = () => {
     {
       name: 'James Ochieng',
       from: 'From Kisumu, now in Sharjah',
-      text: 'From registration at the Nairobi office to deployment, TBH Labour made everything easy and above board. I now work in manufacturing and I am building a home for my family back in Kisumu. Asante, TBH!',
+      text: 'From registration at the Nairobi office to deployment, TPH ltd made everything easy and above board. I now work in manufacturing and I am building a home for my family back in Kisumu. Asante, TPH!',
       image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=center',
       rating: 5,
       type: 'worker'
@@ -415,9 +415,9 @@ const Footer = () => {
           </div>
           <div>
             <h4>Contact</h4>
-            <a href="#"><i className="fas fa-phone"></i> +254 700 123 456</a>
+            <a href="#"><i className="fas fa-phone"></i> +254 724 035 529 / +254 703 318 019</a>
             <a href="#"><i className="fas fa-envelope"></i> info@tbhlabour.co.ke</a>
-            <a href="#"><i className="fas fa-map-marker-alt"></i> Kimathi Street, Nairobi CBD, Kenya</a>
+            <a href="#"><i className="fas fa-map-marker-alt"></i> BIASHARA STREET,RAJA BUILDING 3<sup>RD</sup> FLOOR,NAIROBI</a>
           </div>
           <div>
             <h4>Office Hours</h4>
@@ -429,7 +429,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2026 TBH Labour Export Agency. All rights reserved.</p>
+        <p>&copy; 2026 TPH Manpower ltd. All rights reserved.</p>
         <p>Empowering Kenyans with <i className="fas fa-heart" style={{color: '#ef4444'}}></i> global employment</p>
       </div>
     </footer>
@@ -438,8 +438,8 @@ const Footer = () => {
 
 // WhatsApp Button Component
 const WhatsAppButton = () => {
-  const phoneNumber = '254700123456';
-  const message = 'Hello TBH Labour, I need assistance with labour export to the UAE.';
+  const phoneNumber = '254724035529';
+  const message = 'Hello TPH Manpower ltd, I need assistance with labour export to the UAE.';
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
   return (
